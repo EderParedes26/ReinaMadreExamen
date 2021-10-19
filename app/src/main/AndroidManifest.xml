@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReinaMadreExamen">
         <activity
+            android:name=".CRUD"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroAdmin"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
