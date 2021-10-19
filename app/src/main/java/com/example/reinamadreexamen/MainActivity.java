@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, RegistroAdmin.class));
     }
     public void consultar(View view){
+        startActivity(new Intent(this, CRUD.class));
+        /*
         AdminSqliteOpenHelper admin=new AdminSqliteOpenHelper(this,"administracion",null,1);
         SQLiteDatabase BaseDatos=admin.getWritableDatabase();
         String usuario=nombre.getText().toString();
@@ -43,6 +45,6 @@ public class MainActivity extends AppCompatActivity {
         }else{
             Toast.makeText(this, "Debes llenar todos los campos", Toast.LENGTH_SHORT).show();
         }
-
+    */
     }
 }
